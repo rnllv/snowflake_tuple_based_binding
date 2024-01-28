@@ -23,6 +23,7 @@ con = snowflake.connector.connect(
   session_parameters = {
     'QUERY_TAG': 'EndOfMonthFinancials'
   }
+)
 
 print(con)
 cur = con.cursor()
